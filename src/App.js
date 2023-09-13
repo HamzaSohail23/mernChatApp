@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import React, { useState } from "react";
 
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://hamzachatapp-3aa2956c9e7e.herokuapp.com");
 function App() {
 
   const [ username, setUsername ] = useState("");
